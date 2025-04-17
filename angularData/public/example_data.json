@@ -1,0 +1,70 @@
+{
+    "gene": [
+        {
+            "label": "GLP1R",
+            "value": 297
+        },
+        {
+            "label": "GCGR",
+            "value": 78
+        },
+        {
+            "label": "GIPR",
+            "value": 73
+        },
+        {
+            "label": "CNR1",
+            "value": 62
+        },
+        {
+            "label": "MC4R",
+            "value": 43
+        },
+        {
+            "label": "ADRB3",
+            "value": 39
+        },
+        {
+            "label": "MCHR1",
+            "value": 31
+        },
+        {
+            "label": "CALCR",
+            "value": 27
+        },
+        {
+            "label": "SLC6A2",
+            "value": 25
+        },
+        {
+            "label": "HTR2C",
+            "value": 25
+        }
+    ],
+    "phase": [
+        {
+            "label": "Launched",
+            "value": 28
+        },
+        {
+            "label": "Phase 3",
+            "value": 27
+        },
+        {
+            "label": "Phase 2",
+            "value": 110
+        },
+        {
+            "label": "Phase 1",
+            "value": 113
+        },
+        {
+            "label": "Preclinical",
+            "value": 395
+        },
+        {
+            "label": "Inactive",
+            "value": 1382
+        }
+    ]
+}
