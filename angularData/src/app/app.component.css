@@ -1,0 +1,72 @@
+.chart-controls {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* 🔥 this is what makes it a row */
+    justify-content: center;
+    align-items: center;
+    gap: 12px; /* optional: adds spacing between inputs/buttons */
+}
+
+.chart-controls input {
+    text-align: center;
+}
+
+.chart-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: auto;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+
+.chart-wrapper svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="number"] {
+    text-align: center;
+}
+  
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+  
+.error-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffe5e5;
+    border: 1px solid #ff4d4d;
+    color: #b30000;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.error-overlay.visible {
+    opacity: 1;
+}
+
+.error-overlay.fade-out {
+    opacity: 0;
+}
